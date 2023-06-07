@@ -8,8 +8,9 @@ module.exports = {
       network_id: "*" // Match any network id
     },
     matic: {
-      //https://rpc-mumbai.maticvigil.com
-      provider: () => new HDWalletProvider(mnemonic, `https://side-greatest-dew.matic-testnet.discover.quiknode.pro/e4f8fafc81ac110f69dc8ebbd9fa3d8df9f57b89/`),
+      //https://side-greatest-dew.matic-testnet.discover.quiknode.pro/e4f8fafc81ac110f69dc8ebbd9fa3d8df9f57b89/
+      //https://rpc-mumbai.maticvigil.com 
+      provider: () => new HDWalletProvider(mnemonic, `https://rpc-mumbai.maticvigil.com`),
       network_id: 80001,
       confirmations: 2,
       timeoutBlocks: 200,
